@@ -7,7 +7,7 @@
 
   # Copy the app files from host machine into image filesystem
   # Copy 1st argument apply to host machine and second one to my image
-  COPY out/production/LaunchXGeovannyHDZ/  /app
+  COPY out/production/DemoDocker/  /app
 
   # Set the directory for executing future commands
   WORKDIR /app
